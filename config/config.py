@@ -8,14 +8,14 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", "16624111"))
-API_HASH = getenv("API_HASH", "3b3262784d58e3e4582a64aa1552dc80")
+API_ID = int(getenv("API_ID", "8897410"))
+API_HASH = getenv("API_HASH", "43cb89a7b70782868b77ace21c1341a9")
 OWNER_NAME = getenv("OWNER_NAME", "Qivcz")
-OWNER_NyyyAME = getenv("OWNER_NyyyAME", "5505025904")
-BOT_USERNAME = getenv("BOT_USERNAME", "Uy_lbot")
+OWNER_NyyyAME = getenv("OWNER_NyyyAME", "1488114134")
+BOT_USERNAME = getenv("BOT_USERNAME", "fre5_bot")
 ASSISTANT_NAME = getenv("ASSISTANT_USERNAME", "Qivcz")
-BOT_TOKEN = getenv("BOT_TOKEN", "5326113618:AAGW4TO0v-BNTCEssY8ilJIFfDByzbhG6nQ")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "S_a_i_d_i")
+BOT_TOKEN = getenv("BOT_TOKEN", "5251672485:AAF6SaJ5jw5YP9tHgmA8LyvZ95LJEe9XDrs")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "veevvw")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://semoelnqyb:semoELNQYB1@semoelnqyb.lufi1es.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "500")
@@ -23,27 +23,27 @@ DURATION_LIMIT_MIN = int(
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )  
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001676729688"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001783620120"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MUSIC BOT")
 BOT_USERNAME = getenv("BOT_USERNAME")
 OWNER = getenv("OWNER")
 NAME_BOT = getenv("NAME_BOT")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5183920797").split())
+    map(int, getenv("OWNER_ID", "1488114134").split())
 )  
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/hh/hh",
+    "https://github.com/veevvw/ssaaa",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/SOURCE_ELNGOM"
+    "SUPPORT_CHANNEL", "https://t.me/veevvw"
 )  
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP","https://t.me/MAKER_MUSIC_ELNGOOM_BOT"
+    "SUPPORT_GROUP","https://t.me/tipthon_help"
 ) 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -72,7 +72,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(
 TG_VIDEO_FILESIZE_LIMIT = int(
     getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824")
 ) 
-STRING1 = getenv("STRING_SESSION", "BABkc6QbYr4gfmolaW8JVFKMEorNhUxCUdrU4IAGKsHfX92NJqKg1AwZvWv7ksgdRbY5WQIA3HlBDgzcYtu4TnFsz6waC3q8a02jWgQJ32jY4SjYF9ke4iTctiucRb_3T_L151lHnoJAk5f0dnYqIKGcnJJUO-LCoKEoz27dXsJuPnztoPYHAVGlIEC1nTeQhpm7vAglhuWjJbM7jVPMuAq2aqs7xvooS0PomLGPXYkJq56bafKdf4ocWRZmXu69oVbDvznX4p4T1bku-4G-m_tkwqfeZb3AM4J7uLNAhOLaPtoVMdZbdKDgmfjN4Z4tS-gGpel9YCojTwggKMOp5xFJAAAAAUggB3AA")
+STRING1 = getenv("STRING_SESSION", "AgCHw4IACq8Nte5tBUZCbxX0UOaDgdeXks5a2_6Z2hj5-6hsM9Havq-5gteobd8n2yA1RJ-8ts9UT5iWPUPiO4svC7cwnYqwND7_w9XxaFpVek9KClPn9dUdRHue-LKBHg-Qgw1XY0s7yJIqbakwAfXPOE_vrAZeviEKR-wT7fZ6JoRRNk1lxylY2oAAoh0VykYyZiVPCtIp4ihgF14YF3k5s_DQlyX84RBRZETqPNNFPYapPVcrg4x9vOrxG6jfAMMtLK9L0Ey0jObq5LUshXENxnX0XN4xzwMB_QlBmuARf46NQQlz_zvMuwUvSbZv74HUVm7kb2i2AbBgRwtxpaEqe7vK8gAAAAFpcNXyAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
